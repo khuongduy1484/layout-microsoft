@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
+    <link rel="stylesheet" href="styles.css">
+    <title>Microsoft</title>
+</head>
+<body>
+<div class="container">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    <img height="25"  width="110" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31">
+                </a>
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="">office</a>
+                    </li>
+                    <li class="active">
+                        <a href="">Windows</a>
+                    </li>
+                    <li class="active">
+                        <a href="">Xbox</a>
+                    </li>
+                    <li class="active">
+                        <a href="">Hỗ Trợ</a>
+                    </li>
+                    <li class="active">
+                        <a href="#"><span class="glyphicon glyphicon-shopping-cart">
+
+                        </span></a>
+
+                    </li>
+                        <li>
+                            <a href="#" class="nav-link">
+                                <span class="glyphicon glyphicon-user"></span>
+                            </a>
+                        </li>
+                   <li>
+                       <div id=title">
+                    <li  class="dropdown" >
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tất cả Microsoft <span class="caret"></span></a>
+
+                    </li>
+                       </div>
+            <div id="content">
+                <h1>ssasa</h1>
+
+            </div>
+
+                   </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<script>
+    $(document).ready(function () {
+        let title = document.getElementById("title");
+        let content = document.getElementById("content");
+        title.addEventListener("mouseover", function () {
+            content.style.display = "block";
+        });
+        content.addEventListener("mouseleave", function () {
+            content.style.display = "none";
+        });
+
+
+
+    });
+</script>
+</body>
+</html>
